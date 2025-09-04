@@ -7,13 +7,37 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <nav class="navbar">
+ <nav class="navbar">
     <div class="logo">MySite</div>
     <ul class="nav-links">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="projects.html">Projects</a></li>
-      <li><a href="contact.html">Contact</a></li>
+      <li class="nav-item">
+        <a href="index.html">Home</a>
+        <ul class="dropdown">
+          <li><a href="#">Latest</a></li>
+          <li><a href="#">Highlights</a></li>
+        </ul>
+      </li>
+      <li class="nav-item">
+        <a href="about.html">About</a>
+        <ul class="dropdown">
+          <li><a href="#">Team</a></li>
+          <li><a href="#">Careers</a></li>
+        </ul>
+      </li>
+      <li class="nav-item">
+        <a href="projects.html">Projects</a>
+        <ul class="dropdown">
+          <li><a href="#">Apps</a></li>
+          <li><a href="#">Websites</a></li>
+        </ul>
+      </li>
+      <li class="nav-item">
+        <a href="contact.html">Contact</a>
+        <ul class="dropdown">
+          <li><a href="#">Email</a></li>
+          <li><a href="#">Locations</a></li>
+        </ul>
+      </li>
     </ul>
   </nav>
   
@@ -21,20 +45,6 @@
     <h1>Hi, I'm [Your Name]</h1>
     <p>Welcome to my personal website</p>
   </header>
-
-  <section>
-    <h2>About Me</h2>
-    <p>I'm a [Your Job/Passion], and this is where I share my work and thoughts.</p>
-
-    <h2>Projects</h2>
-    <ul>
-      <li><strong>Project 1:</strong> <a href="#">Awesome Thing I Built</a></li>
-      <li><strong>Project 2:</strong> <a href="#">Another Cool Thing</a></li>
-    </ul>
-
-    <h2>Contact</h2>
-    <p>📧 Email me at <a href="mailto:your@email.com">your@email.com</a></p>
-  </section>
 
   <footer>
     <p>© 2025 [Your Name]. All rights reserved.</p>
